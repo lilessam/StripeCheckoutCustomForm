@@ -43,4 +43,4 @@ Then in your form post action in the backend you will get a `stripeToken` variab
 ##### Notice: All JS must be loaded before the form loading.
 That's it !
 
-Please don't hesitate to create a pull request.
+Please don't hesitate to create a pull request Or post an issue if found, Thanks.
