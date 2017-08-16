@@ -12,6 +12,12 @@ If you got any error using Laravel Mix delete `node_modules` folder and run `npm
 `yarn add stripe-checkout-custom-form`
 
 ### How does  it work
+Include Stripe JS First
+```html
+<script type="text/javascript" src="https://js.stripe.com/v3/"></script>
+<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+```
+
 Application JS File
 ```javascript
 //The div id which the card element will be injected to
@@ -34,6 +40,7 @@ HTML File
 ```
 Then in your form post action in the backend you will get a `stripeToken` variable which you can use to create a customer or charge the card.
 
+##### Notice: All JS must be loaded before the form loading.
 That's it !
 
 Please don't hesitate to create a pull request.
