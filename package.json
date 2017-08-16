@@ -1,0 +1,25 @@
+{
+  "name": "stripe-checkout-custom-form",
+  "version": "1.0.0",
+  "description": "JS Module to help you building custom stripe checkout form without writing any js code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilessam/StripeCheckoutCustomForm.git"
+  },
+  "keywords": [
+    "stripe",
+    "checkout",
+    "custom",
+    "form"
+  ],
+  "author": "Ahmed Essam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilessam/StripeCheckoutCustomForm/issues"
+  },
+  "homepage": "https://github.com/lilessam/StripeCheckoutCustomForm#readme"
+}
