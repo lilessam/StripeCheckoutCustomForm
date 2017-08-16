@@ -1,6 +1,6 @@
 {
   "name": "stripe-checkout-custom-form",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JS Module to help you building custom stripe checkout form without writing any js code.",
   "main": "index.js",
   "scripts": {
