@@ -1,5 +1,5 @@
 module.exports = function(cardElementID, formElementID, fullNameInputName, stripeKey) {
-    $(document).ready(function() {
+    window.onload = function() {
         if (document.getElementById(cardElementID) != null) {
             Stripe.setPublishableKey(stripeKey);
             var stripe = Stripe(stripeKey);
@@ -69,5 +69,5 @@ module.exports = function(cardElementID, formElementID, fullNameInputName, strip
                 form.submit();
             }
         }
-    });
+    };
 };
